@@ -33,7 +33,7 @@ This is a **menu-driven Java console application** for managing customers, credi
 ---
 
 ## 🧱 Project Structure
-
+```
 src/
 ├── main/
 │ ├── java/
@@ -45,7 +45,7 @@ src/
 │ └── resources/
 │ └── META-INF/
 │ └── persistence.xml # Hibernate Configuration
-
+```
 
 ---
 
@@ -93,6 +93,7 @@ The project uses the following key dependencies:
 
 ```bash
 mvn clean install
+```
 
 5. Run `Main.java` and follow the console menu.
 

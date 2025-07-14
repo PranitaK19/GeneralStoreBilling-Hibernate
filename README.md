@@ -28,7 +28,7 @@ This is a **menu-driven Java console application** for managing customers, credi
 | Hibernate ORM      | 7.x           |
 | JPA (Jakarta)      | 3.x           |
 | PostgreSQL         | 14+           |
-| IDE                | Spring Tool Suite / IntelliJ / Eclipse |
+| IDE                | Spring Tool Suite |
 
 ---
 
@@ -108,7 +108,7 @@ mvn clean install
 ## 🙋‍♀️ Author
 
 > **Name:** Pranita Khendkar  
-> **Email:** pranitakhendkar@example.com  
+> **Email:** pranitakhendkar@gmail.com  
 > **GitHub:** [github.com/PranitaK19](https://github.com/PranitaK19)
 
 ---

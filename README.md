@@ -1,4 +1,3 @@
-
 # 🏪 General Store Billing System (Java Console App with Hibernate & PostgreSQL)
 
 This is a **menu-driven Java console application** for managing customers, credit transactions, and payments in a **general store**, developed using:
@@ -35,19 +34,18 @@ This is a **menu-driven Java console application** for managing customers, credi
 
 ## 🧱 Project Structure
 
-```
 src/
 ├── main/
-│   ├── java/
-│   │   └── app/
-│   │       ├── entity/          # JPA Entity Classes
-│   │       ├── dao/             # DAO Layer (CustomerDAO, CreditDAO, PaymentDAO)
-│   │       ├── service/         # ReportService class
-│   │       └── Main.java        # Console Menu
-│   └── resources/
-│       └── META-INF/
-│           └── persistence.xml  # Hibernate Configuration
-```
+│ ├── java/
+│ │ └── app/
+│ │ ├── entity/ # JPA Entity Classes
+│ │ ├── dao/ # DAO Layer (CustomerDAO, CreditDAO, PaymentDAO)
+│ │ ├── service/ # ReportService class
+│ │ └── Main.java # Console Menu
+│ └── resources/
+│ └── META-INF/
+│ └── persistence.xml # Hibernate Configuration
+
 
 ---
 
@@ -60,7 +58,7 @@ src/
 CREATE DATABASE gs_billing_db;
 ```
 
-3. Tables will be auto-created by Hibernate on first run.
+3. Tables will be auto-created by Hibernate on first run
 
 ---
 
@@ -68,13 +66,10 @@ CREATE DATABASE gs_billing_db;
 
 The project uses the following key dependencies:
 
-Hibernate ORM (v6.4.4.Final) – For advanced object-relational mapping between Java classes and database tables.
-
-Jakarta Persistence API (v3.1.0) – Provides standard annotations and interfaces for JPA-based persistence.
-
-PostgreSQL JDBC Driver (v42.7.3) – Enables connectivity between the Java application and PostgreSQL database.
-
-Java 17 Compatibility – Configured via Maven to support modern language features.
+- **Hibernate ORM** (`v6.4.4.Final`) – For advanced object-relational mapping.
+- **Jakarta Persistence API** (`v3.1.0`) – Standard JPA annotations & interfaces.
+- **PostgreSQL JDBC Driver** (`v42.7.3`) – Database connectivity.
+- **Java 17** – Modern Java features enabled via Maven compiler plugin.
 
 ---
 
@@ -92,25 +87,20 @@ Java 17 Compatibility – Configured via Maven to support modern language featur
 ## ▶️ How to Run
 
 1. Clone or download the project.
-2. Open in your IDE.
-3. Update database credentials in `persistence.xml`.
-4. Run:
+2. Open it in Spring Tool Suite, IntelliJ, or Eclipse.
+3. Update DB credentials in `persistence.xml`.
+4. Build and run:
 
 ```bash
 mvn clean install
-```
 
-5. Run `Main.java`  
-6. Use the menu to manage billing.
+5. Run `Main.java` and follow the console menu.
 
 ---
 
-
 ## 📂 Sample Output
 
-
 ![Sample Output](consoleOP.png)
-
 
 ---
 
@@ -119,6 +109,7 @@ mvn clean install
 > **Name:** Pranita Khendkar  
 > **Email:** pranitakhendkar@example.com  
 > **GitHub:** [github.com/PranitaK19](https://github.com/PranitaK19)
+
 ---
 
-Enjoy using gs-billing management!!!
+✨ *Thank you for using this billing system!*

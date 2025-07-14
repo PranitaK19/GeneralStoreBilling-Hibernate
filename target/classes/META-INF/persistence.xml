@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             version="3.1">
+    <persistence-unit name="gsBillingPU">
+
+        <!-- Entity Classes -->
+        <class>app.entity.Customer</class>
+        <class>app.entity.Credit</class>
+        <class>app.entity.Payment</class>
+
+        <properties>
+            <!-- Database Configuration -->
+            <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/gs_billing_db"/>
+            <property name="jakarta.persistence.jdbc.user" value="postgres"/>
+            <property name="jakarta.persistence.jdbc.password" value="bappa@19"/>
+
+            <!-- Hibernate Behavior -->
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.show_sql" value="false"/>
+            <property name="hibernate.format_sql" value="false"/>
+            <property name="hibernate.use_sql_comments" value="false"/>
+        </properties>
+    </persistence-unit>
+</persistence>
